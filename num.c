@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+void main()
 {
     int num;
 
@@ -11,5 +11,5 @@ int main()
     else
         printf("Number is odd");
 
-    return 0;
+   
 }
