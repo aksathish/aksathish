@@ -1,14 +1,11 @@
 #include <stdio.h>
 int main()
-{
-double n1, n2, n3;
-printf("Enter three numbers: ");
-scanf("%lf %lf %lf", &n1, &n2, &n3);
-if( n1>=n2 && n1>=n3)
-printf("%.2lf is the largest number.", n1);
-else if (n2>=n1 && n2>=n3)
-printf("%.2lf is the largest number.", n2);
-else
-printf("%.2lf is the largest number.", n3);
-return 0;
-}
+{ 
+  int a,b,c;
+  int largest;
+  printf("Enter three numbers (separated by space):");
+  scanf("%d%d%d",&a,&b,&c);
+  largest =((a>b && a>c)?a:((b>a && b>c)?b:c));
+  printf("Largest number is = %d",largest);
+  printf("Largest number is = %d",largest);   
+ }
